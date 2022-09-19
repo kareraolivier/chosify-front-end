@@ -3,8 +3,7 @@ import styles from "../../styles/About.module.scss";
 import Button from "../components/Button";
 const About = () => {
   return (
-    <div>
-      {/* <div className="container"> */}
+    <div id="Aboutus">
       <div className={styles.about}>
         <div className={styles.about_feature}>
           <h1>Features</h1>
@@ -38,9 +37,36 @@ const About = () => {
             />
           </div>
         </div>
-        <div className={styles.about_lower}></div>
+        <div className={styles.about_lower}>
+          <div className={styles.about_lower_content}>
+            <h2>Shosipfy make it easy</h2>
+            <p>
+              we have made the following intergration with the most common
+              system
+            </p>
+          </div>
+          <div className={styles.about_lower_image}>
+            <div className={styles.image1}>
+              <h2>
+                Fast and easy intergration no <br />
+                coding needed
+              </h2>
+            </div>
+            <div className={styles.image2}>
+              <h2>
+                Fast and easy intergration no
+                <br /> coding needed
+              </h2>
+            </div>
+            <div className={styles.image3}>
+              <h2>
+                Fast and easy intergration no
+                <br /> coding needed
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
-      {/* </div> */}
     </div>
   );
 };
