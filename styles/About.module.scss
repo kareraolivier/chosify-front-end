@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem 0 5rem;
+
+    .about_feature {
+        h1 {
+            text-align: center;
+        }
+
+        .about_feature_content {
+            .content1 {
+                height: 7rem;
+            }
+
+            .content2 {
+                height: 7rem;
+                text-align: center;
+            }
+
+            .content3 {
+                height: 7rem;
+                text-align: end;
+            }
+        }
+
+        .feature_button {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

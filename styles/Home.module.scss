@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.container {
+    padding: 8rem 0 0 0;
+}
+
+.home {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 35px rgba(103, 105, 108, 0.19);
+
+    .home_image {
+        padding: 1rem;
+        width: 50%;
+    }
+
+    .home_content {
+        width: 50%;
+        padding: 1rem;
+
+        .home_button {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-top: 15rem;
+
+            @media screen and (max-width: 1200px) {
+                margin-top: 10rem;
+            }
+
+            @media screen and (max-width: 1100px) {
+                margin-top: 4rem;
+            }
+        }
+
+
+    }
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+
+        .home_image {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        .home_content {
+            width: 100%;
+            padding: 1rem;
+        }
+
+    }
+}
+
+
+
+.home_lower {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+        color: var(--donkerpaars-color);
+
+        span {
+            font-weight: bolder;
+
+        }
+    }
+
+    .home_lower_content {
+        display: flex;
+        justify-content: space-around;
+
+
+        div {
+            padding: 1rem;
+            width: 33%;
+            cursor: pointer;
+            justify-content: center;
+
+            &:hover {
+                box-shadow: 0px 4px 35px rgba(103, 105, 108, 0.19);
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            align-items: center;
+
+            div {
+                padding: 1rem;
+                width: 80%;
+                justify-content: center;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px) {}
+}
+
+.badge {
+    background-color: rgb(153, 153, 153);
+    height: 15rem;
+
+    padding: 0 4rem;
+
+
+    @media screen and (max-width: 600px) {
+        padding: 0;
+
+        h1 {
+            padding: 0;
+        }
+    }
+
+    h1 {
+        color: var(--white-color);
+        text-align: center;
+        padding: 3rem 0;
+
+    }
+}
