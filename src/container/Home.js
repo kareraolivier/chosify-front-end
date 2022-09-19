@@ -47,15 +47,15 @@ const Home = () => {
           <div className={styles.home_lower_content}>
             <div>
               <Image src={images.ai1} alt="home image" />
-              <p>20% comversational bo0st</p>
+              <p>20% comversational boost</p>
             </div>
             <div>
               <Image src={images.ai2} alt="home image" />
-              <p>20% comversational bo0st</p>
+              <p>35% comversational boost</p>
             </div>
             <div>
               <Image src={images.ai3} alt="home image" />
-              <p>20% comversational bo0st</p>
+              <p>100% More customer satisfaction</p>
             </div>
           </div>
         </div>

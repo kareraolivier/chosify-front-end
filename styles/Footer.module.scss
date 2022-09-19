@@ -1,22 +1,57 @@
 .footer {
     padding: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
 
     .footer_works {
-        padding: 2rem 4rem;
+        padding: 3rem 8rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
         h1 {
             text-align: center;
         }
 
         p {
+            padding: 10px 0;
             margin: 1rem;
             font-size: large;
+        }
+
+        .p1 {
+            margin: 0;
+        }
+
+        .p2 {
+            margin: 0 1rem;
+        }
+
+        .p3 {
+            margin: 0 2rem;
+        }
+
+        .p4 {
+            margin: 0 3rem;
         }
 
         .works_button {
             display: flex;
             justify-content: center;
             padding: 2rem 0;
+        }
+
+        @media screen and (max-width: 900px) {
+            padding: 1rem;
+
+            p {
+
+                font-size: medium;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0.5rem;
         }
     }
 
