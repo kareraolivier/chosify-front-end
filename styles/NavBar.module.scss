@@ -39,42 +39,44 @@
     justify-content: right;
 }
 
-.app__navbar_links {
-    flex: 1;
-    display: flex;
-    list-style: none;
-    justify-items: center;
-    justify-content: center;
+.nav_content {
+    .app__navbar_links {
+        flex: 1;
+        display: flex;
+        list-style: none;
+        justify-items: center;
+        justify-content: center;
 
-    li {
-        margin: 0 1rem;
-        cursor: pointer;
-        flex-direction: column;
-
-        div {
-            width: 20px;
-            height: 4px;
-            background: transparent;
-            border-radius: 20%;
-            margin-bottom: 5px;
-        }
-
-        a {
-            color: var(--gray-color);
-            text-decoration: none;
+        li {
+            margin: 0 1rem;
+            cursor: pointer;
             flex-direction: column;
-            font-weight: 500;
-            font-size: 1rem;
-            transition: all 0.3s ease-in-out;
+
+            div {
+                width: 20px;
+                height: 4px;
+                background: transparent;
+                border-radius: 20%;
+                margin-bottom: 5px;
+            }
+
+            a {
+                color: var(--gray-color);
+                text-decoration: none;
+                flex-direction: column;
+                font-weight: 500;
+                font-size: 1rem;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    color: var(--brown-color)
+                }
+            }
 
             &:hover {
-                color: var(--brown-color)
-            }
-        }
-
-        &:hover {
-            div {
-                background: var(--brown-color);
+                div {
+                    background: var(--brown-color);
+                }
             }
         }
     }
@@ -83,6 +85,7 @@
         display: none;
     }
 }
+
 
 
 .app__navbar_menu {
@@ -144,7 +147,6 @@
             li {
                 margin: 1rem;
 
-                // list-style: none;
                 a {
                     color: var(--gray-color);
                     text-decoration: none;

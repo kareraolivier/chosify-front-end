@@ -34,6 +34,9 @@
             }
         }
 
+        @media screen and (max-width: 600px) {
+            padding: 0;
+        }
 
     }
 
@@ -50,6 +53,10 @@
             padding: 1rem;
         }
 
+    }
+
+    @media screen and (max-width: 670px) {
+        padding: 1rem 0;
     }
 }
 
@@ -99,7 +106,9 @@
         }
     }
 
-    @media screen and (max-width: 600px) {}
+    @media screen and (max-width: 670px) {
+        padding: 1rem 0 0 0;
+    }
 }
 
 .badge {
@@ -122,5 +131,9 @@
         text-align: center;
         padding: 3rem 0;
 
+    }
+
+    @media screen and (max-width: 670px) {
+        padding: 2rem 0 0 0;
     }
 }

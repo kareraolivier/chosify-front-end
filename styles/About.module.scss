@@ -5,6 +5,7 @@
 
     .about_feature {
         background-color: white;
+        padding: 0 1rem;
 
         h1 {
             text-align: center;
@@ -73,24 +74,8 @@
             }
 
             @media screen and (max-width: 670px) {
-                padding: 0;
-
-                .image1 {
-                    flex-direction: column;
-                    height: auto;
-                }
-
-                .image2 {
-                    flex-direction: column;
-                    height: auto;
-                }
-
-                .image3 {
-                    flex-direction: column;
-                    height: auto;
-                }
+                padding: 2rem 0;
             }
-
 
         }
 
@@ -111,6 +96,14 @@
 
 
             }
+
+            @media screen and (max-width: 670px) {
+                padding: 2rem 0.5rem;
+            }
         }
+    }
+
+    @media screen and (max-width: 670px) {
+        padding: 2rem 0 0 0;
     }
 }

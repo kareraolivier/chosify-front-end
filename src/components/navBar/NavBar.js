@@ -52,6 +52,21 @@ const NavBar = () => {
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
+
+            <Button
+              text="Login"
+              color="#252526"
+              bcolor="white"
+              width="5rem"
+              border="solid #252526"
+            />
+            <Button
+              text="Request demo"
+              color="white"
+              bcolor="rgb(42, 62, 126)"
+              width="9rem"
+              border="solid #252526"
+            />
             <ul>
               {["Pricing", "About us", "Demo", "Cases", "contact"].map(
                 (item) => (
