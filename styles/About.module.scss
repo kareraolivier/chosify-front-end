@@ -41,6 +41,36 @@
         .about_lower_image {
             width: 50%;
             padding: 2rem;
+
+            .image1 {
+                height: 7rem;
+                display: flex;
+                justify-content: flex-end;
+
+                .smallimage {
+                    width: 8rem;
+                }
+            }
+
+            .image2 {
+                height: 7rem;
+                display: flex;
+                justify-content: center;
+                // margin: 0 1rem;
+
+                .smallimage {
+                    width: 8rem;
+                }
+            }
+
+            .image3 {
+                height: 7rem;
+                display: flex;
+
+                .smallimage {
+                    width: 8rem;
+                }
+            }
         }
 
         .about_lower_content {
