@@ -14,9 +14,11 @@
     .footer_works {
         padding: 3rem 8rem;
         display: flex;
+        width: 50rem;
         justify-content: center;
         flex-direction: column;
         color: var(--white-color);
+        margin: auto;
 
         h1 {
             text-align: center;
