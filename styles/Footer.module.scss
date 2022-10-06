@@ -16,6 +16,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        color: var(--white-color);
 
         h1 {
             text-align: center;
@@ -83,4 +84,11 @@
             align-items: center;
         }
     }
+}
+
+.lastlogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
 }
