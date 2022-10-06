@@ -6,8 +6,8 @@ import Button from "../components/Button";
 
 const Home = () => {
   return (
-    <div>
-      <div className="container">
+    <div className={styles.homesection}>
+      <div className={styles.container}>
         <div className={styles.home}>
           <div className={styles.home_content}>
             <h2>Boost your comversationwith 40%off</h2>
@@ -19,15 +19,15 @@ const Home = () => {
             <div className={styles.home_button}>
               <Button
                 text="Learn more"
-                color="#252526"
-                bcolor="white"
+                color="#FFFFFF"
+                bcolor="none"
                 width="9rem"
-                border="none"
+                border="solid #FF645A"
               />
               <Button
                 text="start trial"
-                color="#252526"
-                bcolor="white"
+                color="#FFFFFF"
+                bcolor="#FF645A"
                 width="9rem"
                 border="none"
               />

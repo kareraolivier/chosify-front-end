@@ -5,6 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background-color: var(--blauwpaars-color);
+  color: var(--primary-color);
 }
 
 a {
@@ -14,6 +16,8 @@ a {
 
 * {
   box-sizing: border-box;
+
+  // background-color: var(--blauwpaars-color);
 }
 
 :root {
@@ -35,7 +39,7 @@ a {
 
   body {
     color: black;
-    background: rgb(254, 255, 255);
+    // background: rgb(254, 255, 255);
   }
 }
 

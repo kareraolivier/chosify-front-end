@@ -5,11 +5,11 @@ const Button = ({ color, bcolor, onClick, text, width, border }) => {
     <button
       style={{
         width: width,
-        height: "2.5rem",
+        height: "2.2rem",
         fontSize: "16px",
         cursor: "pointer",
         // border: "solid #252526",
-        borderRadius: "2px",
+        borderRadius: "20px",
         border: border,
         margin: "0 0.4rem",
         color: color,

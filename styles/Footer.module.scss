@@ -1,3 +1,11 @@
+.container {
+    padding: 8rem 3rem 0 3rem;
+
+    @media screen and (max-width: 600px) {
+        padding: 1rem 0rem 0 0rem;
+    }
+}
+
 .footer {
     padding: 2rem 0 0 0;
     display: flex;
@@ -59,10 +67,10 @@
         padding: 2rem 0 0 0;
         display: flex;
         justify-content: space-around;
-        background-color: rgb(91, 91, 91);
+        background-color: var(--white-color);
         height: 20rem;
 
-        color: white;
+        color: var(--donkerpaars-color);
 
         .image {
             width: 25%;

@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import logo1 from "./logo1.png";
 import homeimg from "./home.jpeg";
 import ai1 from "./AI1.jpeg";
 import ai2 from "./AI2.jpeg";
@@ -22,4 +23,5 @@ export default {
   d,
   e,
   f,
+  logo1,
 };

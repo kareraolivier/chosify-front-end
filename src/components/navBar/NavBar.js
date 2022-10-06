@@ -13,24 +13,24 @@ const NavBar = () => {
     <nav className={styles.app__navbar} id={styles.Home}>
       <div className={styles.app__navbar_logo}>
         <div className={styles.myimg}>
-          <Image src={images.logo} alt="logo" />
+          <Image src={images.logo1} alt="logo" />
         </div>
       </div>
       <div className={styles.nav_content}>
         <div className={styles.nav_buttons}>
           <Button
             text="Login"
-            color="#252526"
-            bcolor="white"
-            width="5rem"
-            border="solid #252526"
+            color="#FFFFFF"
+            bcolor="#000035"
+            width="9rem"
+            border="solid #FF645A"
           />
           <Button
             text="Request demo"
             color="white"
-            bcolor="rgb(42, 62, 126)"
-            width="9rem"
-            border="solid #252526"
+            bcolor="#FF645A"
+            width="10rem"
+            border="none"
           />
         </div>
         <div>
