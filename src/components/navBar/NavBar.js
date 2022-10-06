@@ -55,17 +55,17 @@ const NavBar = () => {
 
             <Button
               text="Login"
-              color="#252526"
-              bcolor="white"
-              width="5rem"
-              border="solid #252526"
+              color="#FFFFFF"
+              bcolor="#000035"
+              width="9rem"
+              border="solid #FF645A"
             />
             <Button
               text="Request demo"
               color="white"
-              bcolor="rgb(42, 62, 126)"
-              width="9rem"
-              border="solid #252526"
+              bcolor="#FF645A"
+              width="10rem"
+              border="none"
             />
             <ul>
               {["Pricing", "About us", "Demo", "Cases", "contact"].map(

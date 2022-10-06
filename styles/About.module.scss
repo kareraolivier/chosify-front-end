@@ -52,9 +52,14 @@
         color: var(--white-color);
         padding: 0 5rem;
 
+        @media screen and (max-width: 750px) {
+            padding: 0;
+        }
+
         div {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
 
             .about_lower_image {
                 width: 50%;
@@ -63,7 +68,7 @@
                 .image1 {
                     height: 7rem;
                     display: flex;
-                    justify-content: flex-end;
+                    justify-content: center;
 
                     .smallimage {
                         width: 8rem;
@@ -84,6 +89,7 @@
                 .image3 {
                     height: 7rem;
                     display: flex;
+                    justify-content: center;
 
                     .smallimage {
                         width: 8rem;
@@ -92,6 +98,8 @@
 
                 @media screen and (max-width: 670px) {
                     padding: 2rem 0;
+                    width: 100%;
+                    flex-direction: column;
                 }
 
             }
@@ -114,14 +122,22 @@
 
                 }
 
-                @media screen and (max-width: 670px) {
+                @media screen and (max-width: 750px) {
                     padding: 2rem 0.5rem;
+                    width: 100%;
                 }
             }
+
+            @media screen and (max-width: 750px) {
+                padding: 0;
+            }
         }
+
+
     }
 
-    @media screen and (max-width: 670px) {
-        padding: 2rem 0 0 0;
+    @media screen and (max-width: 750px) {
+        padding: 0;
+
     }
 }

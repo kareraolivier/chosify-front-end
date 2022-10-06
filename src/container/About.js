@@ -42,11 +42,15 @@ const About = () => {
         <div className={styles.about_lower}>
           <div>
             <div className={styles.about_lower_content}>
-              <h2>Shosipfy make it easy</h2>
-              <p>
-                we have made the following intergration with the most common
-                system
-              </p>
+              <h2>Unlock your potential in a few minuts</h2>
+              <p>we have already made these intergration to get to you</p>
+              <Button
+                text="Read more"
+                color="#FFFFFF"
+                bcolor="#FF645A"
+                width="10rem"
+                border="none"
+              />
             </div>
             <div className={styles.about_lower_image}>
               <div className={styles.image1}>
