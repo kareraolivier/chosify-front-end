@@ -10,6 +10,10 @@ import c from "./c.jpg";
 import d from "./d.jpeg";
 import e from "./e.jpeg";
 import f from "./f.jpeg";
+import ai22 from "./Component 7.png";
+import ai33 from "./Vector (2).png";
+import ai11 from "./Vector (3).png";
+import home from "./home1.png";
 
 export default {
   logo,
@@ -23,5 +27,9 @@ export default {
   d,
   e,
   f,
+  ai11,
+  ai22,
+  ai33,
   logo1,
+  home,
 };

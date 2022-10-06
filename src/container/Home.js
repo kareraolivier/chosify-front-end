@@ -16,54 +16,71 @@ const Home = () => {
               machine learning. It is hard to make a choice out of buch similar
               products. Let chosify help you to make the right choice.
             </p>
-            <div className={styles.home_button}>
-              <Button
-                text="Learn more"
-                color="#FFFFFF"
-                bcolor="none"
-                width="9rem"
-                border="solid #FF645A"
-              />
-              <Button
-                text="start trial"
-                color="#FFFFFF"
-                bcolor="#FF645A"
-                width="9rem"
-                border="none"
-              />
-            </div>
           </div>
           <div className={styles.home_image}>
-            <Image src={images.homeimg} alt="home image" />
+            <Image src={images.home} alt="home image" />
+          </div>
+          <div className={styles.home_button}>
+            <Button
+              text="Learn more"
+              color="#FFFFFF"
+              bcolor="#000035"
+              width="9rem"
+              border="solid #FF645A"
+            />
+            <Button
+              text="start trial"
+              color="#FFFFFF"
+              bcolor="#FF645A"
+              width="9rem"
+              border="none"
+            />
           </div>
         </div>
         <div className={styles.home_lower}>
-          <h1>
-            Chosefy the best
-            <b> choice </b>
-            <br />
-            to make a<b> choice</b>
-          </h1>
-          <div className={styles.home_lower_content}>
-            <div>
-              <Image src={images.ai1} alt="home image" />
-              <p>20% comversational boost</p>
-            </div>
-            <div>
-              <Image src={images.ai2} alt="home image" />
-              <p>35% comversational boost</p>
-            </div>
-            <div>
-              <Image src={images.ai3} alt="home image" />
-              <p>100% More customer satisfaction</p>
+          <div>
+            <h1>
+              Chosefy the best
+              <b> choice </b>
+              <br />
+              to make a<b> choice</b>
+            </h1>
+            <div className={styles.home_lower_content}>
+              <div>
+                <Image
+                  src={images.ai11}
+                  alt="home image"
+                  width={120}
+                  height={120}
+                />
+                <p>CONVERSATIONAL INCREASE</p>
+              </div>
+              <div>
+                <Image
+                  src={images.ai22}
+                  alt="home image"
+                  width={120}
+                  height={120}
+                />
+                <p>BETTER CUSTOMER EXPERIENCE</p>
+              </div>
+              <div>
+                <Image
+                  src={images.ai33}
+                  alt="home image"
+                  width={120}
+                  height={120}
+                />
+                <p>LESS RETURN</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className={styles.badge}>
-          <h1>
-            Create survey to give your client the best product recommendation
-          </h1>
-        </div>
+      </div>
+      <div className={styles.badge}>
+        <h1>
+          Create survey to give your client the best product recommendation
+        </h1>
       </div>
     </div>
   );

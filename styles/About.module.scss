@@ -9,14 +9,19 @@
 .about {
     display: flex;
     flex-direction: column;
-    padding: 2rem 5rem 0 5rem;
+    padding: 2rem 0rem 0 0rem;
 
     .about_feature {
-        background-color: white;
+        padding: 0 5rem;
+        background-color: var(--blauwpaars-color);
         padding: 0 1rem;
+        width: 40rem;
+        margin: auto;
+        color: var(--white-color);
 
         h1 {
             text-align: center;
+            padding: 2rem;
         }
 
         .about_feature_content {
@@ -43,70 +48,75 @@
     }
 
     .about_lower {
-        display: flex;
-        background-color: rgba(235, 235, 235, 0.94);
-        flex-wrap: wrap;
+        background-color: var(--donkerpaars-color);
+        color: var(--white-color);
+        padding: 0 5rem;
 
-        .about_lower_image {
-            width: 50%;
-            padding: 2rem;
+        div {
+            display: flex;
+            flex-wrap: wrap;
 
-            .image1 {
-                height: 7rem;
-                display: flex;
-                justify-content: flex-end;
+            .about_lower_image {
+                width: 50%;
+                padding: 1rem;
 
-                .smallimage {
-                    width: 8rem;
+                .image1 {
+                    height: 7rem;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .smallimage {
+                        width: 8rem;
+                    }
                 }
-            }
 
-            .image2 {
-                height: 7rem;
-                display: flex;
-                justify-content: center;
+                .image2 {
+                    height: 7rem;
+                    display: flex;
+                    justify-content: center;
 
 
-                .smallimage {
-                    width: 8rem;
+                    .smallimage {
+                        width: 8rem;
+                    }
                 }
-            }
 
-            .image3 {
-                height: 7rem;
-                display: flex;
+                .image3 {
+                    height: 7rem;
+                    display: flex;
 
-                .smallimage {
-                    width: 8rem;
+                    .smallimage {
+                        width: 8rem;
+                    }
                 }
-            }
 
-            @media screen and (max-width: 670px) {
-                padding: 2rem 0;
-            }
-
-        }
-
-        .about_lower_content {
-            width: 50%;
-            padding: 3rem 2rem;
-
-
-            h2 {
-                text-align: center;
-                font-size: xx-large;
+                @media screen and (max-width: 670px) {
+                    padding: 2rem 0;
+                }
 
             }
 
-            p {
-                text-align: center;
-                font-size: x-large;
+            .about_lower_content {
+                width: 50%;
+                padding: 3rem 2rem;
 
 
-            }
+                h2 {
+                    text-align: center;
+                    font-size: xx-large;
 
-            @media screen and (max-width: 670px) {
-                padding: 2rem 0.5rem;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: x-large;
+
+
+                }
+
+                @media screen and (max-width: 670px) {
+                    padding: 2rem 0.5rem;
+                }
             }
         }
     }

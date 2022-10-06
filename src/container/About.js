@@ -31,45 +31,47 @@ const About = () => {
           </div>
           <div className={styles.feature_button}>
             <Button
-              text="Book a demo"
-              color="#252526"
-              bcolor="white"
+              text="Read more"
+              color="#FFFFFF"
+              bcolor="#FF645A"
               width="10rem"
-              border="solid #252526"
+              border="none"
             />
           </div>
         </div>
         <div className={styles.about_lower}>
-          <div className={styles.about_lower_content}>
-            <h2>Shosipfy make it easy</h2>
-            <p>
-              we have made the following intergration with the most common
-              system
-            </p>
-          </div>
-          <div className={styles.about_lower_image}>
-            <div className={styles.image1}>
-              <div className={styles.smallimage}>
-                <Image src={images.a} alt="a" width="100%" height="100%" />
-              </div>
-              <div className={styles.smallimage}>
-                <Image src={images.b} alt="b" width="100%" height="100%" />
-              </div>
+          <div>
+            <div className={styles.about_lower_content}>
+              <h2>Shosipfy make it easy</h2>
+              <p>
+                we have made the following intergration with the most common
+                system
+              </p>
             </div>
-            <div className={styles.image2}>
-              <div className={styles.smallimage}>
-                <Image src={images.c} alt="c" width="100%" height="100%" />
+            <div className={styles.about_lower_image}>
+              <div className={styles.image1}>
+                <div className={styles.smallimage}>
+                  <Image src={images.a} alt="a" width="100%" height="100%" />
+                </div>
+                <div className={styles.smallimage}>
+                  <Image src={images.b} alt="b" width="100%" height="100%" />
+                </div>
               </div>
-              <div className={styles.smallimage}>
-                <Image src={images.d} alt="d" width="100%" height="100%" />
+              <div className={styles.image2}>
+                <div className={styles.smallimage}>
+                  <Image src={images.c} alt="c" width="100%" height="100%" />
+                </div>
+                <div className={styles.smallimage}>
+                  <Image src={images.d} alt="d" width="100%" height="100%" />
+                </div>
               </div>
-            </div>
-            <div className={styles.image3}>
-              <div className={styles.smallimage}>
-                <Image src={images.e} alt="e" width="100%" height="100%" />
-              </div>
-              <div className={styles.smallimage}>
-                <Image src={images.f} alt="f" width="100%" height="100%" />
+              <div className={styles.image3}>
+                <div className={styles.smallimage}>
+                  <Image src={images.e} alt="e" width="100%" height="100%" />
+                </div>
+                <div className={styles.smallimage}>
+                  <Image src={images.f} alt="f" width="100%" height="100%" />
+                </div>
               </div>
             </div>
           </div>
